@@ -1,0 +1,65 @@
+[
+  {
+    "title": "CS401: Artificial Intelligence & Machine Learning",
+    "subject_code": "CS401",
+    "description": "Final Term Assessment covering Computer Vision, Deep Learning architectures, Object Detection, and Model Evaluation metrics.",
+    "duration_minutes": 30,
+    "total_marks": 10,
+    "passing_marks": 50,
+    "created_by": "admin",
+    "status": "active",
+    "created_at": "2026-08-25T19:14:29.104709",
+    "_id": "0d242c27-f437-4e34-a0d2-2c0994bd6bbd"
+  },
+  {
+    "title": "CS402: Computer Networks & Cyber Defense",
+    "subject_code": "CS402",
+    "description": "Comprehensive evaluation of Network Protocols, Cryptographic Algorithms, Transport Layers, and Attack Vectors.",
+    "duration_minutes": 25,
+    "total_marks": 5,
+    "passing_marks": 50,
+    "created_by": "admin",
+    "status": "active",
+    "created_at": "2026-08-26T19:14:29.104709",
+    "_id": "cf1d0c9d-217a-464c-9394-a2112dc8803a"
+  },
+  {
+    "title": "hihih",
+    "subject_code": "768",
+    "category": "Computer Science",
+    "description": "iuyuui",
+    "duration_minutes": 30,
+    "total_marks": 100,
+    "passing_marks": 40,
+    "created_by": "4432ef59-3164-4c3f-8753-2858a9ab5889",
+    "status": "active",
+    "created_at": "2026-08-27T19:50:11.509697",
+    "_id": "7408a854-8bf3-4788-b0bf-6e7d3360d8a4"
+  },
+  {
+    "title": "lkjll",
+    "subject_code": "AI & MACHINE LEARNING",
+    "category": "AI & Machine Learning",
+    "description": "lkjljlj",
+    "duration_minutes": 30,
+    "total_marks": 100,
+    "passing_marks": 40,
+    "created_by": "4432ef59-3164-4c3f-8753-2858a9ab5889",
+    "status": "active",
+    "created_at": "2026-09-07T16:48:28.132458",
+    "_id": "3396d352-5966-4a69-bbbe-868901cba4be"
+  },
+  {
+    "title": "dggg",
+    "subject_code": "AI & MACHINE LEARNING",
+    "category": "AI & Machine Learning",
+    "description": "jD",
+    "duration_minutes": 30,
+    "total_marks": 100,
+    "passing_marks": 40,
+    "created_by": "4432ef59-3164-4c3f-8753-2858a9ab5889",
+    "status": "active",
+    "created_at": "2026-09-10T15:14:28.258645",
+    "_id": "467712dd-3886-4129-949c-a7d0732e3830"
+  }
+]

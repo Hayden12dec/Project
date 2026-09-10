@@ -1,0 +1,47 @@
+# ==========================================
+# AI Proctoring System - Git Ignore Rules
+# ==========================================
+
+# 1. Evidence Images & Snapshots (Auto-created at runtime)
+evidence/*
+!evidence/.gitkeep
+
+# 2. Environment Variables & Credentials
+.env
+*.local.env
+
+# 3. Python Virtual Environments & Packages
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# 4. Frontend (Node / Vite / Build output)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/vite.config.js.timestamp*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 5. IDE & Operating System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# 6. Large Model Weights (Optional - auto-downloaded via models/download_models.py)
+*.pt
+models/weights/*.onnx
+!models/weights/.gitkeep

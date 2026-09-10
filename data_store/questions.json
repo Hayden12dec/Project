@@ -1,0 +1,272 @@
+[
+  {
+    "exam_id": "0d242c27-f437-4e34-a0d2-2c0994bd6bbd",
+    "question_text": "Which computer vision architecture uses a single forward pass through a neural network to predict bounding boxes and class probabilities simultaneously?",
+    "options": [
+      "R-CNN",
+      "Fast R-CNN",
+      "YOLO (You Only Look Once)",
+      "Sliding Window Classifier"
+    ],
+    "correct_answer": 2,
+    "marks": 1,
+    "explanation": "YOLO reframes object detection as a single regression problem, straight from image pixels to bounding box coordinates and class probabilities.",
+    "_id": "b03fff8c-119b-45db-a3cc-eb5f93f3d47d",
+    "created_at": "2026-08-27T19:14:29.104709"
+  },
+  {
+    "exam_id": "0d242c27-f437-4e34-a0d2-2c0994bd6bbd",
+    "question_text": "In head pose estimation, what are the three Euler rotation angles representing 3D orientation?",
+    "options": [
+      "Pitch, Yaw, Roll",
+      "Latitude, Longitude, Altitude",
+      "Azimuth, Zenith, Elevation",
+      "Alpha, Beta, Gamma"
+    ],
+    "correct_answer": 0,
+    "marks": 1,
+    "explanation": "Pitch (nodding up/down), Yaw (shaking head left/right), and Roll (tilting head sideways) form the 3D rigid body orientation.",
+    "_id": "d972b8b9-1084-433d-ac7f-032f7f509b56",
+    "created_at": "2026-08-27T19:14:29.104709"
+  },
+  {
+    "exam_id": "0d242c27-f437-4e34-a0d2-2c0994bd6bbd",
+    "question_text": "What is the primary purpose of Perspective-n-Point (solvePnP) algorithm in facial landmark processing?",
+    "options": [
+      "Color space transformation from RGB to Grayscale",
+      "Estimating 3D camera pose relative to known 3D object points and 2D image projections",
+      "Applying Gaussian blur to reduce camera noise",
+      "Detecting edges in high resolution images"
+    ],
+    "correct_answer": 1,
+    "marks": 1,
+    "explanation": "cv2.solvePnP solves the problem of finding the pose of a calibrated camera given a set of n 3D points in the world and their corresponding 2D projections in the image.",
+    "_id": "ce125c9d-79db-43a7-bf83-0e9dfea68be1",
+    "created_at": "2026-08-27T19:14:29.104709"
+  },
+  {
+    "exam_id": "0d242c27-f437-4e34-a0d2-2c0994bd6bbd",
+    "question_text": "Which activation function is most commonly utilized in hidden layers of modern Convolutional Neural Networks to avoid vanishing gradients?",
+    "options": [
+      "Sigmoid",
+      "ReLU (Rectified Linear Unit)",
+      "Tanh",
+      "Linear Identity"
+    ],
+    "correct_answer": 1,
+    "marks": 1,
+    "explanation": "ReLU (f(x) = max(0, x)) preserves gradient flow during backpropagation and accelerates convergence.",
+    "_id": "d3d81eb9-9b85-410b-8855-41cb49ed1bf5",
+    "created_at": "2026-08-27T19:14:29.104709"
+  },
+  {
+    "exam_id": "0d242c27-f437-4e34-a0d2-2c0994bd6bbd",
+    "question_text": "In biometrics, what distance metric is most frequently used to compare normalized face embeddings?",
+    "options": [
+      "Manhattan Distance",
+      "Cosine Similarity / Cosine Distance",
+      "Hamming Distance",
+      "Chebyshev Distance"
+    ],
+    "correct_answer": 1,
+    "marks": 1,
+    "explanation": "Cosine similarity measures the angle between normalized feature vectors, effectively capturing angular alignment in high-dimensional embedding space.",
+    "_id": "43336456-2527-4f5e-b494-9bb1428056d7",
+    "created_at": "2026-08-27T19:14:29.104709"
+  },
+  {
+    "exam_id": "0d242c27-f437-4e34-a0d2-2c0994bd6bbd",
+    "question_text": "Which metric balances Precision and Recall, calculated as their harmonic mean?",
+    "options": [
+      "Accuracy",
+      "ROC-AUC",
+      "F1-Score",
+      "Mean Absolute Error (MAE)"
+    ],
+    "correct_answer": 2,
+    "marks": 1,
+    "explanation": "F1-Score is the harmonic mean of precision and recall: 2 * (Precision * Recall) / (Precision + Recall).",
+    "_id": "a1482853-17bc-4a91-90c1-8d698842e748",
+    "created_at": "2026-08-27T19:14:29.104709"
+  },
+  {
+    "exam_id": "0d242c27-f437-4e34-a0d2-2c0994bd6bbd",
+    "question_text": "What is the purpose of Non-Maximum Suppression (NMS) in object detection algorithms?",
+    "options": [
+      "To eliminate redundant, overlapping bounding boxes for the same detected object",
+      "To normalize pixel brightness values across training images",
+      "To perform image compression before network input",
+      "To compute gradient descent step sizes"
+    ],
+    "correct_answer": 0,
+    "marks": 1,
+    "explanation": "NMS filters out redundant candidate boxes that overlap with the highest-confidence bounding box above an IoU threshold.",
+    "_id": "ce106233-6f59-4539-9227-15ed615a3cca",
+    "created_at": "2026-08-27T19:14:29.104709"
+  },
+  {
+    "exam_id": "0d242c27-f437-4e34-a0d2-2c0994bd6bbd",
+    "question_text": "In audio signal processing, what does RMS (Root Mean Square) energy quantify?",
+    "options": [
+      "Signal Frequency in Hz",
+      "Signal Power / Loudness level",
+      "Phase Shift in radians",
+      "Sampling Rate"
+    ],
+    "correct_answer": 1,
+    "marks": 1,
+    "explanation": "RMS energy measures the average power and amplitude of the audio signal over a given time window.",
+    "_id": "332cde4f-bc97-486a-9bdf-9f202a82632e",
+    "created_at": "2026-08-27T19:14:29.104709"
+  },
+  {
+    "exam_id": "0d242c27-f437-4e34-a0d2-2c0994bd6bbd",
+    "question_text": "Which loss function is standard for multi-class classification problems with one-hot encoded targets?",
+    "options": [
+      "Categorical Cross-Entropy",
+      "Mean Squared Error",
+      "Binary Cross-Entropy",
+      "Hinge Loss"
+    ],
+    "correct_answer": 0,
+    "marks": 1,
+    "explanation": "Categorical Cross-Entropy measures the performance of a classification model whose output is a probability distribution across multiple classes.",
+    "_id": "64345dd5-1ec6-442f-920d-ca40e30440fd",
+    "created_at": "2026-08-27T19:14:29.104709"
+  },
+  {
+    "exam_id": "0d242c27-f437-4e34-a0d2-2c0994bd6bbd",
+    "question_text": "What is the key advantage of transfer learning in deep learning applications?",
+    "options": [
+      "Guarantees 100% test accuracy without fine-tuning",
+      "Leverages features learned on massive datasets to train on smaller domain datasets with faster convergence",
+      "Removes the need for GPU computation completely",
+      "Eliminates overfitting on all dataset types"
+    ],
+    "correct_answer": 1,
+    "marks": 1,
+    "explanation": "Transfer learning reuses feature extractors trained on large-scale datasets (like ImageNet/COCO), drastically reducing required training data and epochs.",
+    "_id": "010aa470-3e9c-47d6-a22a-f5e8653177ee",
+    "created_at": "2026-08-27T19:14:29.104709"
+  },
+  {
+    "exam_id": "cf1d0c9d-217a-464c-9394-a2112dc8803a",
+    "question_text": "Which OSI layer is responsible for end-to-end communication, flow control, and error recovery?",
+    "options": [
+      "Network Layer",
+      "Transport Layer",
+      "Data Link Layer",
+      "Session Layer"
+    ],
+    "correct_answer": 1,
+    "marks": 1,
+    "explanation": "The Transport Layer (Layer 4) provides transparent transfer of data between end systems with TCP flow/congestion control.",
+    "_id": "a5218c57-15a2-47da-b8cf-03c2f00781a6",
+    "created_at": "2026-08-27T19:14:29.113859"
+  },
+  {
+    "exam_id": "cf1d0c9d-217a-464c-9394-a2112dc8803a",
+    "question_text": "In asymmetric cryptography (e.g., RSA), which key is used by the sender to encrypt a secret message intended exclusively for the recipient?",
+    "options": [
+      "Sender's Private Key",
+      "Sender's Public Key",
+      "Recipient's Public Key",
+      "Shared Symmetric Key"
+    ],
+    "correct_answer": 2,
+    "marks": 1,
+    "explanation": "The sender encrypts using the recipient's public key, ensuring only the recipient's private key can decrypt it.",
+    "_id": "d69099f4-a186-4449-a855-4b55510889ab",
+    "created_at": "2026-08-27T19:14:29.113859"
+  },
+  {
+    "exam_id": "cf1d0c9d-217a-464c-9394-a2112dc8803a",
+    "question_text": "What protocol provides secure, encrypted communication over the World Wide Web using TLS?",
+    "options": [
+      "HTTP",
+      "HTTPS",
+      "FTP",
+      "SNMP"
+    ],
+    "correct_answer": 1,
+    "marks": 1,
+    "explanation": "HTTPS (Hypertext Transfer Protocol Secure) encrypts HTTP traffic using Transport Layer Security (TLS).",
+    "_id": "a6ff010d-3ba0-4fd9-bfa9-3794f7ebcc76",
+    "created_at": "2026-08-27T19:14:29.113859"
+  },
+  {
+    "exam_id": "cf1d0c9d-217a-464c-9394-a2112dc8803a",
+    "question_text": "Which type of cyber attack involves flooding a target server with excessive bogus traffic to render it unavailable to legitimate users?",
+    "options": [
+      "SQL Injection",
+      "Distributed Denial of Service (DDoS)",
+      "Cross-Site Scripting (XSS)",
+      "Man-in-the-Middle (MITM)"
+    ],
+    "correct_answer": 1,
+    "marks": 1,
+    "explanation": "A DDoS attack overwhelms system resources and bandwidth using a coordinated botnet.",
+    "_id": "b8edac64-124e-433c-a4a2-e9d70e9a76ea",
+    "created_at": "2026-08-27T19:14:29.113859"
+  },
+  {
+    "exam_id": "cf1d0c9d-217a-464c-9394-a2112dc8803a",
+    "question_text": "What is the standard subnet mask for a Class C IPv4 network with 24 network bits (/24)?",
+    "options": [
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.255.255.255"
+    ],
+    "correct_answer": 2,
+    "marks": 1,
+    "explanation": "A /24 prefix corresponds to 24 consecutive '1' bits, yielding the subnet mask 255.255.255.0.",
+    "_id": "5a0d48ab-7bd7-47bb-a3f5-14526dbb99bc",
+    "created_at": "2026-08-27T19:14:29.113859"
+  },
+  {
+    "exam_id": "7408a854-8bf3-4788-b0bf-6e7d3360d8a4",
+    "question_text": "uuhih",
+    "options": [
+      "jj",
+      "kljl",
+      "iuug",
+      "khk"
+    ],
+    "correct_answer": 0,
+    "marks": 1,
+    "explanation": "",
+    "created_at": "2026-08-27T19:50:26.467099",
+    "_id": "1b19798d-801d-40b0-9df4-698e7f59124d"
+  },
+  {
+    "exam_id": "3396d352-5966-4a69-bbbe-868901cba4be",
+    "question_text": ";lljll",
+    "options": [
+      ";llkl;k;l",
+      "kk;lk;l",
+      "jljll",
+      "kljll"
+    ],
+    "correct_answer": 0,
+    "marks": 1,
+    "explanation": "",
+    "created_at": "2026-09-07T16:48:45.542462",
+    "_id": "a81d71ba-a4dc-4952-bcfe-00a67d8a8fbf"
+  },
+  {
+    "exam_id": "467712dd-3886-4129-949c-a7d0732e3830",
+    "question_text": "HJJASF",
+    "options": [
+      "KHJASF",
+      ";JAD",
+      "LJKKASKF",
+      "LUAFIUKJF"
+    ],
+    "correct_answer": 0,
+    "marks": 1,
+    "explanation": "",
+    "created_at": "2026-09-10T15:14:43.303627",
+    "_id": "c55ffcb4-6907-4619-ab05-1f8073b67d56"
+  }
+]
